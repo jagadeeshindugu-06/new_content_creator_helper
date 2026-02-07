@@ -73,7 +73,7 @@ function Rig() {
   return null;
 }
 
-export function Scene() {
+export default function Scene() {
   return (
     <>
       <color attach="background" args={['#050508']} />
