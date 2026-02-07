@@ -98,3 +98,11 @@ export default function Scene() {
     </>
   );
 }
+export default function Scene() {
+  return (
+    <>
+      <FloatingObjects />
+      <Rig />
+    </>
+  )
+}
